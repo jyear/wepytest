@@ -6,20 +6,18 @@
 </template>
 <script>
     import wepy from 'wepy'
-    import util from "./util/util"
+    import util from "../../util/util"
     export default class Index extends  wepy.page{
         config={
-            window: {
                 navigationBarTitleText: '1'
-            }
         }
         data ={
         }
         methods={
         }
         async onLoad(option){
-        }   
 
+        }   
     }
 
 
